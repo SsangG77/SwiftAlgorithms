@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
 
+//getMaxAndMin("1 2 3 4")
+
+//print(mixString("aaaaa", "bbbbb"))
+
+//print(correctParentheses(")(((((()"))
+
+print("count: ", coordinatePlanePoing(2, 4))
