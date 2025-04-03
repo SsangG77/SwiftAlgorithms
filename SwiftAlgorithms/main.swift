@@ -8,10 +8,10 @@
 import Foundation
 
 
-//getMaxAndMin("1 2 3 4")
-
+//print(getMaxAndMin("1 2 3 4"))
 //print(mixString("aaaaa", "bbbbb"))
-
 //print(correctParentheses(")(((((()"))
+//print("count: ", coordinatePlanePoing(2, 4))
+//print(makeJadenCaseString("3people unFollowed me"))
 
-print("count: ", coordinatePlanePoing(2, 4))
+
