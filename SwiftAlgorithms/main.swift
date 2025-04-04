@@ -13,5 +13,5 @@ import Foundation
 //print(correctParentheses(")(((((()"))
 //print("count: ", coordinatePlanePoing(2, 4))
 //print(makeJadenCaseString("3people unFollowed me"))
-
-
+//print(controlZ("10 20 30 40"))
+print(diceCount([10, 8, 17], 2))
