@@ -11,18 +11,17 @@ import Foundation
 func fibonacciSequence(_ n: Int) -> Int {
     var a = 0
     var b = 1
-    
-    if n == 2 {
-        return 1
+
+    if n == 1 {
+       return 0
     }
-      for _ in 2...n-1 {
-        let c = a + b
-          a = b
-          b = c
-      }
-      
-    
-      
-    return (a + b) % 1234567
+
+    for _ in 2...n {
+       let c = (a + b) % 1234567
+       a = b
+       b = c
+    }
+
+    return b
 }
 
