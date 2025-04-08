@@ -19,7 +19,8 @@ import Foundation
 //print(foodFightMatch([1, 3, 4, 6]))
 //print(cleanWallpaper(["..........", ".....#....", "......##..", "...##.....", "....#....."]))
 //print(fibonacciSequence(3))
-print(manyGifts(
-    ["muzi", "ryan", "frodo", "neo"],
-    ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"]
-))
+//print(manyGifts(
+//    ["muzi", "ryan", "frodo", "neo"],
+//    ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"]
+//))
+print(getoutDeliveryBox(22, 6, 8))
