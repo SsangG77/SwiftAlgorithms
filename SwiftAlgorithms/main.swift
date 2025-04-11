@@ -24,5 +24,5 @@ import Foundation
 //    ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"]
 //))
 //print(getoutDeliveryBox(22, 6, 8)) // 3
-
+//print(getCarpetSize(10, 2))
 
