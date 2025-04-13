@@ -25,4 +25,5 @@ import Foundation
 //))
 //print(getoutDeliveryBox(22, 6, 8)) // 3
 //print(getCarpetSize(10, 2))
-
+print(gymClothes(5, [2, 4], [1, 3, 5]))
+print(gymClothes(5, [2, 4], [3]))
