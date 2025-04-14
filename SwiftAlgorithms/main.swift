@@ -25,5 +25,5 @@ import Foundation
 //))
 //print(getoutDeliveryBox(22, 6, 8)) // 3
 //print(getCarpetSize(10, 2))
-print(gymClothes(5, [2, 4], [1, 3, 5]))
-print(gymClothes(5, [2, 4], [3]))
+//print(gymClothes(5, [2, 4], [1, 3, 5]))
+print(makeMaxInt([3, 30, 34, 5, 9]))
