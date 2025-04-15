@@ -26,4 +26,5 @@ import Foundation
 //print(getoutDeliveryBox(22, 6, 8)) // 3
 //print(getCarpetSize(10, 2))
 //print(gymClothes(5, [2, 4], [1, 3, 5]))
-print(makeMaxInt([3, 30, 34, 5, 9]))
+//print(makeMaxInt([3, 30, 34, 5, 9]))
+print(openChattingRoom(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]))
