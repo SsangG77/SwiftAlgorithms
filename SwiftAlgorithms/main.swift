@@ -27,4 +27,5 @@ import Foundation
 //print(getCarpetSize(10, 2))
 //print(gymClothes(5, [2, 4], [1, 3, 5]))
 //print(makeMaxInt([3, 30, 34, 5, 9]))
-print(openChattingRoom(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]))
+//print(openChattingRoom(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]))
+print("result: ", miningMinerals([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]))
