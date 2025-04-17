@@ -39,13 +39,17 @@ func miningMinerals(_ picks: [Int], _ minerals: [String]) -> Int {
         sectionFatigue.append(f)
     }
     
-    var dict:[Int:[String]] = [:]
+    var fatigueWithSections: [(Int, [String])] = []
     for i in sections.indices {
-        dict[sectionFatigue[i]] = sections[i]
+        fatigueWithSections.append((sectionFatigue[i], sections[i]))
     }
     
-    let sortDict = dict.sorted(by: { $0.key > $1.key })
-    print(sortDict)
+    let usableCount = picks.reduce(0, +)
+    
+    let prefixMinerals = Array(fatigueWithSections.prefix(usableCount))
+    let sortedSections = prefixMinerals.sorted { $0.0 > $1.0 }
+
+
     
     
     //곡괭이 배치하기
@@ -55,7 +59,7 @@ func miningMinerals(_ picks: [Int], _ minerals: [String]) -> Int {
     var ironPickCount = picks[1]
     var stonePickCount = picks[2]
     
-    for (_, minerals) in sortDict {
+    for (_, minerals) in sortedSections {
         if diaPickCount > 0 {
             totalFatigue += fatigue(minerals, with: "diamond")
             diaPickCount -= 1
@@ -70,24 +74,21 @@ func miningMinerals(_ picks: [Int], _ minerals: [String]) -> Int {
         }
     }
 
-    func fatigue(_ minerals: [String], with pick: String) -> Int {
-        var fatigue = 0
-        for m in minerals {
-            switch (pick, m) {
-            case ("diamond", _): fatigue += 1
-            case ("iron", "diamond"): fatigue += 5
-            case ("iron", _): fatigue += 1
-            case ("stone", "diamond"): fatigue += 25
-            case ("stone", "iron"): fatigue += 5
-            case ("stone", "stone"): fatigue += 1
-            default: break
-            }
-        }
-        return fatigue
-    }
-
-    
-    
-    
     return totalFatigue
+}
+
+func fatigue(_ minerals: [String], with pick: String) -> Int {
+    var fatigue = 0
+    for m in minerals {
+        switch (pick, m) {
+        case ("diamond", _): fatigue += 1
+        case ("iron", "diamond"): fatigue += 5
+        case ("iron", _): fatigue += 1
+        case ("stone", "diamond"): fatigue += 25
+        case ("stone", "iron"): fatigue += 5
+        case ("stone", "stone"): fatigue += 1
+        default: break
+        }
+    }
+    return fatigue
 }
