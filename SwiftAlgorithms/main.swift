@@ -29,4 +29,5 @@ import Foundation
 //print(makeMaxInt([3, 30, 34, 5, 9]))
 //print(openChattingRoom(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]))
 //print("result: ", miningMinerals([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]))
-print(alienDictionary(["p", "o", "s"], ["sod", "eocd", "qixm", "adio", "soo"]))
+//print(alienDictionary(["p", "o", "s"], ["sod", "eocd", "qixm", "adio", "soo"]))
+print(tableHashFunction([[2, 2, 6], [1, 5, 10], [4, 2, 9], [3, 8, 3]], 2, 2, 3))
