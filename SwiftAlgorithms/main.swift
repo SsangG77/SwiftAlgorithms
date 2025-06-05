@@ -30,4 +30,7 @@ import Foundation
 //print(openChattingRoom(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]))
 //print("result: ", miningMinerals([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]))
 //print(alienDictionary(["p", "o", "s"], ["sod", "eocd", "qixm", "adio", "soo"]))
-print(tableHashFunction([[2, 2, 6], [1, 5, 10], [4, 2, 9], [3, 8, 3]], 2, 2, 3))
+//print(tableHashFunction([[2, 2, 6], [1, 5, 10], [4, 2, 9], [3, 8, 3]], 2, 2, 3))
+//var nums = [1,2,3]
+//print(nextPermutation(&nums))
+//print(minimumWindowSubstring("sangjin", "sang"))
