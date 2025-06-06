@@ -9,7 +9,7 @@ Swift로 알고리즘 문제를 풉니다.
 ## 기술 블로그에 학습 내용 정리
 [기술 블로그](https://sssangg719.notion.site/Second-Brain-1a2ee035a51f80afb3c0cdd4c39305e7?pvs=4)
 
-
+### 프로그래머스
 - 베경화면 정리하기
 - 컨트롤 Z
 - 점 찍기
@@ -31,3 +31,7 @@ Swift로 알고리즘 문제를 풉니다.
 - 외계인 사전
 - 테이블 해시 함수
 
+### LeetCode
+- MinimumWindowSubstring
+- NextPermission
+- ReverseKGroup
